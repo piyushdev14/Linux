@@ -63,3 +63,5 @@ chown - to change the owner of the file or folder ex chown bupendra filename/fol
 chgrp - to change the group of the file or folder ex chgrp bupendra filename/foldername 
 
 
+example = chmod u=r, g= rwx, o=x file 1
+
