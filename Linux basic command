@@ -1,0 +1,65 @@
+				     Basic file management cmd
+
+
+1. touch xyz -  create empty file
+2.cat
+	cat > xyz - also create file with some data you add
+	cat xyz - to read file
+	cat >> xyz -  to append/join the data in existing file 
+3. mv 
+	mv file1 file2  - if file exist rename the file
+	     src  des
+	
+	mv file1 folder1 - mv the file to folder 1.
+
+4. cp  
+	cp file1 file2 - copy file
+
+5. rm -rf /path of dir/file -  remove the file or directory.
+
+6 vim/nano
+	vim/nano filename - edit the file like notepad
+		steps 1. press I-insert to enable editing.
+		      2. press esc key then
+			  a. q! - quit without saving
+			  b. qw - quit with saving
+
+			
+					BACKUP AND ARCHIVE
+
+
+1. tar  -  tape archieve to backup the file
+	tar -cvf dirx.tar dirx
+	   (create,verbose,forecefully)   filename    file
+  				**dirx.tar - it is a file not a directory 
+2.gzip -  to zip the file either tar or any other and reduce the file size
+		ex- gzip dirx.tar
+
+
+3.gunzip - to unzip the file so that file comes to its original size.
+		ex - gunzip dirx.tar.gz
+
+4.extract tar  - to extract the tar
+		tar -xvf dirx.tar - it extract the file to original form.
+
+
+
+
+File permission for owner group and other
+
+	   421   421	421
+d/-        rwx   rwx    rwx
+dir/file   file	 owner  group
+ 
+chmod -u rwx //-for user
+chmod -g rwx //-for group
+chmod -o rwx //-for others
+
+
+(=:set equal to ,+ add the permission,- : remove the permission)
+
+chmod - for the read write execute permission 2 ways either 777 or chmod (u/g/o +/-/= rwx)
+chown - to change the owner of the file or folder ex chown bupendra filename/foldername
+chgrp - to change the group of the file or folder ex chgrp bupendra filename/foldername 
+
+
