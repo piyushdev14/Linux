@@ -16,6 +16,8 @@ step 6. systemctl start ssh ------- *(if ssh not enabled Cause - refuse the conn
 
 step 7.using ssh cmd=======ex - ssh hostname@ip  ssh usr@192.168.x.x
 
+![Image](https://github.com/user-attachments/assets/eb053b2c-5db2-4d95-add6-8935e8edb157)
+
 step 8. enter the password for authentication.
 
 step 9. now you are authorized user and get into server powershell.
