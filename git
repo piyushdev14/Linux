@@ -19,4 +19,4 @@ git push -u origin master (enter user name and password) .
 git log - check the all commit with their ids
 git status - check the untacked files or files in staging area and commit area if commit it shows 
 working tree clean.
-git 
+git show <commit id> - to show what is done in that commit
