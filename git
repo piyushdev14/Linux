@@ -1,4 +1,4 @@
-                                                              Git-- (version control system)
+                                                               Git-- (version control system)
 
 software configuration mgmt or src code mgmt
                 2 types
@@ -6,3 +6,17 @@ a. Centralized vcs
 https://github.com/piyushdev14/Linux/issues/3#issue-2852818094
 b. Distributed vcs
 ![Image](https://github.com/user-attachments/assets/eb053b2c-5db2-4d95-add6-8935e8edb157)
+
+
+
+
+                git cmd
+git init - to create a local git repo in local machine
+git add . - to add file in staging area. "." represent all files
+git commit -m - to add file in repo and -m reprent the message that we given to get the cotext of commit.
+git remote add origin "<url>" .
+git push -u origin master (enter user name and password) .
+git log - check the all commit with their ids
+git status - check the untacked files or files in staging area and commit area if commit it shows 
+working tree clean.
+git 
