@@ -26,7 +26,10 @@ git show <commit id> - to show what is done in that commit
 git branch <branch name>.
 git branch : to checkout all branches repo have and also your current branch with '*' symbol.
 git checkout <branch name > : to switch to different branches.
-git push -f origin main -f represent forcefully
+git push -f origin main -f represent forcefully.
+git push -u origin main/branch name where -u represent upstream.
+
+
 
 
 
