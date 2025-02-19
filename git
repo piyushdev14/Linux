@@ -39,6 +39,16 @@ git remote remove origin
 git remote -v  : it help to check the remote repository
 
 
+      git stash
+it is used when you suddenly stop current work and do the more urgent work so stash comes in role where
+you store running work in stash and empty the working directory for some time and start the more urgent 
+work.
+git stash list to see stashed item 
+git stash apply stash{3} to apply stashed item.
+then you can add and commit
+git stash clear -- to clear the stash item.
+
+
 
 
 
