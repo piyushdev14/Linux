@@ -51,7 +51,11 @@ then you can add and commit
 
 git stash clear -- to clear the stash item.
 
+            git revert
 
+git revert <commit-id>: didn't delete the previous commit but add the new commit of previous one with
+the new commit id and we have to resolve the conflict with vi editor file and again add and commit 
+the file.
 
 
 
