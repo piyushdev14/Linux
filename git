@@ -44,8 +44,11 @@ it is used when you suddenly stop current work and do the more urgent work so st
 you store running work in stash and empty the working directory for some time and start the more urgent 
 work.
 git stash list to see stashed item 
-git stash apply stash{3} to apply stashed item.
+git stash apply stash{0,1,2,3} to apply stashed item and whenever we add work in stash no increases.
 then you can add and commit
+
+**note =you need to edit the file if name is same and change and add , commit
+
 git stash clear -- to clear the stash item.
 
 
