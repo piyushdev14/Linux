@@ -33,6 +33,11 @@ by using
 git branch -m main - this change the branch name form master to main
 
 
+        git remove 
+git branch -d <branch name>
+git remote remove origin 
+
+
 
 
 
