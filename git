@@ -28,6 +28,9 @@ git branch : to checkout all branches repo have and also your current branch wit
 git checkout <branch name > : to switch to different branches.
 git push -f origin main -f represent forcefully.
 git push -u origin main/branch name where -u represent upstream.
+git status also define the commit is in which branch and according to that we change the branch
+by using
+git branch -m main - this change the branch name form master to main
 
 
 
