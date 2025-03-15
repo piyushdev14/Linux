@@ -93,7 +93,7 @@ To uninstall the package using commands
 
 some tips to remember -
   - like windows symbol in linux the tab name is whisker
-  - it gives all information of processes
+  - cpu manager at the bottom right gives all information of processes
   - if keyboard sometime stop click window butoon and 
 	search -> keyboard
 	layout -> turn slider on and off.
@@ -120,6 +120,19 @@ some tips to remember -
   -- so we use the thunderbolt third party to log into outlook using pop configuration.
 
 - if you sick of screen off after 2 or 3 minutes then next steps are for you -:
-  - click window key on keyboard and search for power setting 
-  -- and control the time according to you 
-  -- remember change in both plugged in and 
+  - click window key on keyboard and search for power setting. 
+  -- and control the time according to you.
+  -- remember change in both plugged in and on battery.
+  -- also chnage the screensaver option just below this layout.
+
+** NOTE
+  -->> There is 3 version of enviourment 
+   -->xfce - by default and the lightest using less resources and with minimal gui.
+   -->kdpe - it is little bit heavy side and use more resources more gui and option than xfce.
+   -->gnome - it is different from 2 above and apper like mac os but prefer if you have high config hardware.
+
+
+
+
+
+
