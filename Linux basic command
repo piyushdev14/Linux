@@ -65,3 +65,61 @@ chgrp - to change the group of the file or folder ex chgrp bupendra filename/fol
 
 example = chmod u=r, g= rwx, o=x file 1
 
+
+
+			COMMANDS TO ADD OR REMOVE PACKAGE
+
+To install chrome
+  -- first search google chrome for linux and download the deb package file.
+  -- then chnage the path cd Downloads or use down then tab to auto complete 
+  -- then use cmd "sudo dpkg -i chrome" then tab hit enter 
+  -- now search for google chrome and use it.
+
+To install linux playstrore
+  -- you need to search for web catalog on google 
+  -- downlod the debin package
+  -- move to downloaded file to desktop
+  -- and enter the commands chmod +x * 
+  -- this command just give the execution permission and * represent 
+		the all file present on desktop.
+  -- now click the debian file.
+
+To install using linux commands
+  -- sudo apt install <package or application name>
+	ex - sudo apt install nodejs
+To uninstall the package using commands
+  -- sudo apt remove <package or application name>
+	ex - sudo apt remove nodejs .
+
+some tips to remember -
+  - like windows symbol in linux the tab name is whisker
+  - it gives all information of processes
+  - if keyboard sometime stop click window butoon and 
+	search -> keyboard
+	layout -> turn slider on and off.
+	or check if laptop keyboard layout is availabel
+		choose that form drop down .
+
+- like taskbar in windows there is panel in linux
+  - uncheck the lock taskbar an drag the panel according to preference
+  - form here you increase row size
+  - change the positon of icon and lot more regarding panel.
+
+- some mouse setting you need to know 
+  -- in linux you need to turn on two finger scrolling.
+  -- also the touch to click.
+  -- also the reverse scrolling.
+**remember to log off to apply the changes.
+
+- if you see you windwos icon and all small than normal
+  -- then go to display setting and choose the resolution 1366 * 768
+  -- and save the changes or click on apply and select keep the configuration.
+
+-- the thing i encounter during swtiching from windows to linux is email configuring 
+	with pop or imap configuration .
+  -- so we use the thunderbolt third party to log into outlook using pop configuration.
+
+- if you sick of screen off after 2 or 3 minutes then next steps are for you -:
+  - click window key on keyboard and search for power setting 
+  -- and control the time according to you 
+  -- remember change in both plugged in and 
