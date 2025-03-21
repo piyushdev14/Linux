@@ -138,5 +138,11 @@ some tips to remember -
 	- and to capture particular area 
 		shift + printscrn (like window snipping tool).
 
+- how to install image editor 
+	- in gnome enviourment you get the editor but in xfce one can try using	
+		-sudo apt install feh
+		-sudo apt install eog
+
+
 
 
