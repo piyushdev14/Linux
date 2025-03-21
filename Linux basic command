@@ -142,6 +142,13 @@ some tips to remember -
 	- in gnome enviourment you get the editor but in xfce one can try using	
 		-sudo apt install feh
 		-sudo apt install eog
+		-sudo apt install gimp
+		-sudo apt install krita
+		-sudo apt install pinta
+		-sudo apt install mtpaint
+
+
+
 
 
 
