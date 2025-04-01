@@ -67,5 +67,5 @@ ex ---- git reflog.
 This will help us to see who commit what so lets suppose someone merge it and there is some mistake
 so we find the person and sought out the things.
 ex ----- git blame.
-
+*** note ---- use "space" if the blame list is long to see the next page
       
