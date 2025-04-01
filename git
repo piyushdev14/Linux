@@ -58,7 +58,14 @@ the new commit id and we have to resolve the conflict with vi editor file and ag
 the file.
 
 
+        git reflog
+The git reflog command to record changes made to the tips of branches. It allows you to go back to 
+commits that are not linked to any branch or tag.
+ex ---- git reflog.
 
+        git blame
+This will help us to see who commit what so lets suppose someone merge it and there is some mistake
+so we find the person and sought out the things.
+ex ----- git blame.
 
-
-
+      
